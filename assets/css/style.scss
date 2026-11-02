@@ -1,0 +1,44 @@
+---
+---
+
+// Keep the existing theme's styles.
+@import "{{ site.theme }}";
+
+// Website background: fills the whole screen and stays put while scrolling.
+body {
+  background-color: #ffffff;
+  background-image: url("../images/pawprint.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+// White panel behind all of the page's content.
+.wrapper {
+  box-sizing: border-box;
+  display: flow-root;
+  width: 940px;
+  max-width: 100%;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+// Keep the title and footer on the panel when scrolling, instead of letting
+// them float over the background.
+header,
+footer {
+  position: static;
+}
+
+footer {
+  clear: left;
+}
+
+// Use a smaller panel margin on phones so the text keeps its room.
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 20px;
+  }
+}
