@@ -1,2 +1,6 @@
-# personal_rclone_sync
-This project serves to port over the file-browser sync features of google drive onto my Fedora machine via rclone. 
+Welcome to my website! This is where my project will live....someday. :3 
+
+# Current Project: Personal RClone sync. 
+
+
+The goal is to setup a 2way rclone file sync on my computer, linked to google drive, that replicates google drive for windows' functionality. 
