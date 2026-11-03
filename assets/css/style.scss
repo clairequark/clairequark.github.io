@@ -36,6 +36,14 @@ footer {
   clear: left;
 }
 
+// GIF in the bottom right corner of the white panel. It takes up its own
+// space, so it can't cover the text as the page grows.
+.panel-gif {
+  display: block;
+  float: right;
+  clear: right;
+}
+
 // Use a smaller panel margin on phones so the text keeps its room.
 @media screen and (max-width: 480px) {
   .wrapper {
